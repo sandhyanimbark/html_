@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hind Tech Mind Labs</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+    qr{
+        font-style:strong;
+        font-size: 155%;
+        color: rgb(0, 0, 0);
+    }
+</style>
+
+
+</head>
+
+<body>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("sep 5, 2021 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("demo").innerHTML = days + " <b>days</b> " + hours + " <b>hours</b> "
+          + minutes + " <b>min</b> " + seconds + " <b>seconds</b> ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script> 
+        
+        <img src="images/Brand Logo.png" class="logo">
+<section id="courses">
+    
+    <div class="container course-row">
+        <div class="course-left-col">
+            <div class="course-text">
+                <qr id="demo"></qr>
+               
+                  <div class="hp">
+                    <h1>OUR SITE IS LAUNCHING SOON!</h1>
+                    <hr>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="course-right-col">
+            <img src="images/c2.jpg">
+        </div>
+    </div>
+</section>  
+   
+    
+<!--about  -->
+<h2 class="soci"><a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a></h2>
+    
+<section id="about">
+     <div class="about-left-col">
+        <img src="images/c1.png">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>Get to know Us</h1>
+             
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p><br><br>
+           
+            <h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"</h2>
+            <h3>----Abigail Adams</h3>
+        </div>
+    </div>
+</section>   
+    
+<!--features-->   
+    
+<section id="features">
+    <h1>Services</h1>
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="images/web design.jpg">
+            <h4>Web Developer</h4>
+          
+        </div>
+        <div class="feature-col">
+            <img src="images/landing-page-concept-design-process_23-2148298749.jpg">
+            <h4>Web Design</h4>
+            
+        </div>
+        <div class="feature-col">
+            <img src="images/web design.jpg">
+            <h4>Graphic Design</h4>
+          
+        </div>
+        <div class="feature-col">
+            <img src="images/landing-page-concept-design-process_23-2148298749.jpg">
+            <h4>Web Design</h4>
+            
+        </div>
+    </div>
+  
+</section>  
+        
+<!--Offer  -->
+
+<div class="ab">
+           
+           
+            <h2>Get In Touch</h2>
+           
+        </div>
+ 
+   
+<!--Contact -->
+
+<section id="contact">
+    <div class="container contact-row">
+        <div class="contact-left-col">
+            <h1>Sign Up to join our<br>learning community</h1>
+            <form>
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+            <div class="btn-box">
+                <button class="common-btn">Sign Up</button>
+               
+            </div>
+            </form>
+           
+        </div>
+        <div class="contact-right-col">
+            <img src="images/contact.png">
+        </div>
+    </div>
+</section>   
+      
+<!--Footer      -->
+       
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>Product</h4>
+                    <small>Our Plan</small><br>
+                    <small>Free Trial</small>
+                </div>
+                <div class="link-title">
+                    <h4>About Us</h4>
+                    <small>Request Demo</small><br>
+                    <small>FAQs</small>
+                </div>
+                <div class="link-title">
+                    <h4>Support</h4>
+                    <small>Features</small><br>
+                    <small>Contact Us</small>
+                </div>
+                <div class="link-title">
+                    <h4>Explore</h4>
+                    <small>Find a nonprofit</small><br>
+                    <small>Corporate Solution</small>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+            <div class="footer-info">
+                <div class="copyright-text">
+                    <small>support@html_website.com</small><br>
+                    <small>copyright 2020</small>
+                </div>
+                <div class="footer-logo">
+                    <img src="images/Brand Logo.png">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+                                                                                                           
+  
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
